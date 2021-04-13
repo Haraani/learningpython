@@ -1,18 +1,17 @@
-# Program make a simple calculator
+# Program to learn arthematic operations 
 
-# This function adds two numbers
+# This function performs addition of two numbers
 def add(x, y):
     return x + y
-
-# This function subtracts two numbers
+# This function performs subtraction of two numbers
 def subtract(x, y):
     return x - y
 
-# This function multiplies two numbers
+# This function performs multiplication of two numbers
 def multiply(x, y):
     return x * y
 
-# This function divides two numbers
+# This function performs division of two numbers
 def divide(x, y):
     return x / y
 #this function gives the modulus
@@ -27,7 +26,7 @@ print("4.Divide")
 print("5. Modulus")
 while True:
     # Take input from the user
-    select = input("Enter choice(1/2/3/4/5): ")
+    select = input("Enter choice(1, 2, 3, 4 or 5): ")
 
     # Check if choice is one of the four options
     if select in ('1', '2', '3', '4', '5'):
